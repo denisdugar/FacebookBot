@@ -1,0 +1,13 @@
+﻿  Source.cpp
+c:\users\denis\source\repos\project2\project2\source.cpp(220): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(347): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(379): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(389): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(398): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(433): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(456): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(466): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(503): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(559): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\denis\source\repos\project2\project2\source.cpp(222): warning C4101: answer: неиспользованная локальная переменная
+  Project2.vcxproj -> C:\Users\denis\source\repos\Project2\x64\Debug\Project2.exe
