@@ -192,9 +192,9 @@ void Tap_down() {
 }
 
 void click() {
-	mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0); // нажали
+	mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0); // Г­Г Г¦Г Г«ГЁ
 	Sleep(100);
-	mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); //отпустили
+	mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); //Г®ГІГЇГіГ±ГІГЁГ«ГЁ
 }
 
 void move(int x, int y) {
@@ -226,7 +226,7 @@ int main()
 		cout << "1. Like posts" << endl;
 		cout << "2. Invite friends to the group" << endl;
 		cout << "3. Like only one post by all bots" << endl;
-		cout << "4. Check сursor position" << endl;
+		cout << "4. Check СЃursor position" << endl;
 		cout << "5. Go to the link by all bots" << endl;
 		cout << "6. Add friends" << endl;
 		cout << "7. Exit" << endl;
@@ -252,7 +252,7 @@ int main()
 		double *posts = new double[bots];
 		cout << "Enter the number of likes for every bot" << endl;
 		for (int i = 0; i < bots; i++) {
-			cout << "Bot №" << i + 1 << ": ";
+			cout << "Bot #" << i + 1 << ": ";
 			cin >> posts[i];
 		}
 		cout << "Move the cursor to a point free of elements on the page and press Enter" << endl;
@@ -383,7 +383,7 @@ int main()
 		cout << "Enter count of friends for start(for every tab different):" << endl;
 
 		for (int i = 0; i < size; i++) {
-			cout << "Tab №" << i + 1 << " ";
+			cout << "Tab #" << i + 1 << " ";
 			cin >> arr[i];
 		}
 
@@ -440,7 +440,7 @@ int main()
 		system("pause>null");
 		x_url = get_curs_x();
 		y_url = get_curs_y();
-		cout << "Считанно" << endl;
+		cout << "Complete" << endl;
 
 		cout << "Enter the count of sec of pause for load a page" << endl;
 		cin >> t;
@@ -639,7 +639,7 @@ int main()
 		double *friends = new double[bots];
 		cout << "Enter the number of friends for each bot" << endl;
 		for (int i = 0; i < bots; i++) {
-			cout << "Bot №" << i + 1 << ": ";
+			cout << "Bot В№" << i + 1 << ": ";
 			cin >> friends[i];
 		}
 		cout << "Move the cursor to a point free of elements on the page and press Enter" << endl;
